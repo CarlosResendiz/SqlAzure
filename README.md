@@ -28,9 +28,10 @@
 
 For start running it and importing database, you should to open your azure database firewall for allowing connections for this ip.
 
-Example:
-In command line run
-`./ExportFromAzureSQLDb.bat myserver.database.windows.net MyDatabase D:\ImportSQLFromAzure\MyDatabase.bacpac DatabaseUser DatabasePassword`
+#### Example:
+##### In command line run
+
+    ./ExportFromAzureSQLDb.bat myserver.database.windows.net MyDatabase D:\ImportSQLFromAzure\MyDatabase.bacpac DatabaseUser DatabasePassword
 
 ## ImportToSQLServer.bat
 
@@ -50,6 +51,8 @@ In command line run
 
 Import might throw some warnings because you are migrating from cloud version to your local sql version(e.g. 2014/2016 etc.) but if you are not using any special feature from cloud version, just press enter and migration will continue normally.
 
-Example:
-In command line run
-`./ImportToSQLServer.bat .\MySQLServer MyDatabase D:\ImportSQLFromAzure\MyDatabase.bacpac`
+#### Example:
+##### In command line run
+
+    ./ImportToSQLServer.bat .\MySQLServer MyDatabase D:\ImportSQLFromAzure\MyDatabase.bacpac
+
