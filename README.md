@@ -1,7 +1,7 @@
 # Exporting SQL database from azure to sql
 
 ## Prerequisites
-- [DacFramework] (https://go.microsoft.com/fwlink/?linkid=2113703) this will install sqlpackage in `C:\Program Files\Microsoft SQL Server\150\DAC\bin`
+- [DacFramework](https://go.microsoft.com/fwlink/?linkid=2113703) this will install sqlpackage in `C:\Program Files\Microsoft SQL Server\150\DAC\bin`
 
 ## ExportFromAzureSQLDb.bat
 
