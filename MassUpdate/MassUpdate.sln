@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportAzureToBacpac", "ExportAzureToBacpac\ExportAzureToBacpac.csproj", "{BA4DA3BB-05F6-49B3-8471-3A1D8486D388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExportAzureToBacpac", "ExportAzureToBacpac\ExportAzureToBacpac.csproj", "{BA4DA3BB-05F6-49B3-8471-3A1D8486D388}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImportToSQLServer", "ImportToSQLServer\ImportToSQLServer.csproj", "{80FAD2D5-FB49-469E-A027-CD62262BCEC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BA4DA3BB-05F6-49B3-8471-3A1D8486D388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA4DA3BB-05F6-49B3-8471-3A1D8486D388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA4DA3BB-05F6-49B3-8471-3A1D8486D388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FAD2D5-FB49-469E-A027-CD62262BCEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FAD2D5-FB49-469E-A027-CD62262BCEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FAD2D5-FB49-469E-A027-CD62262BCEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FAD2D5-FB49-469E-A027-CD62262BCEC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
